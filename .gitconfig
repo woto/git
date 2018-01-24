@@ -1,0 +1,11 @@
+[color]
+	ui = true
+[user]
+	name = Ruslan Kornev
+	email = oganer@gmail.com
+[core]
+	excludesfile = /home/woto/.gitignore
+[push]
+	default = simple
+[diff]
+	tool = vimdiff
