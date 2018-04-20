@@ -17,3 +17,9 @@ Session.vim
 *~
 # Auto-generated tag files
 tags
+
+.bash_history
+.python_history
+.viminfo
+.node_repl_history
+node_modules

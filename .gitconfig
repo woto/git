@@ -9,5 +9,12 @@
 	default = simple
 [diff]
 	tool = gvimdiff
+[merge]
+	tool = gvimdiff
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [credential]
 	helper = cache --timeout=3600
