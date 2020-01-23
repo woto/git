@@ -23,3 +23,6 @@ tags
 .viminfo
 .node_repl_history
 node_modules
+.idea
+.generators
+.rakeTasks
